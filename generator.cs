@@ -2,18 +2,22 @@ using DiskCardGame;
 using System.IO;
 
 var code = new StringBuilder();
+Action<string> writeAndReset = (file) => {
+  File.WriteAllText(file, $"/**\n * CODE IN THIS FILE IS AUTO-GENERATED!\n * DO NOT MAKE MANUAL CHANGES BECAUSE THEY WILL BE LOST\n*/\n\n{code.ToString()}");
+  code = new StringBuilder();
+};
 Action<Type> generateEnum = (type) =>
 {
-    var values = Enum.GetValues(type);
-    code.AppendLine($"export enum {type.Name} {{");
-    foreach (var value in values)
-    {
-        string enumName = value.ToString();
-        if (enumName.StartsWith("NUM_")) continue; // Why these exist???? They are explicitly defined (by a human, not some sort of automatic thing) yet never used.
-        code.AppendLine($"  {enumName} = {Convert.ToInt32(value)},");
-    }
-
-    code.AppendLine("}\n");
+  var values = Enum.GetValues(type);
+  code.AppendLine($"export enum {type.Name} {{");
+  foreach (var value in values)
+  {
+    string enumName = value.ToString();
+    // Why these exist???? They are explicitly defined (by a human, not some sort of automatic thing) yet never used.
+    if (enumName.StartsWith("NUM_")) continue;
+    code.AppendLine($"  {enumName} = {Convert.ToInt32(value)},");
+  }
+  code.AppendLine("}\n");
 };
 
 generateEnum(typeof(Ability));
@@ -26,21 +30,10 @@ generateEnum(typeof(SpecialStatIcon));
 generateEnum(typeof(SpecialTriggeredAbility));
 generateEnum(typeof(Trait));
 generateEnum(typeof(Tribe));
+writeAndReset("D:/enums.ts");
 
-code.AppendLine(@"export type AbilityInfo = {
-  ability: Ability;
-  passive: boolean;
-  activated: boolean;
-  metaCategories: AbilityMetaCategory[];
-  powerLevel: number;
-  opponentUsable: boolean;
-  canStack: boolean;
-  abilityLearnedDialogue: string;
-  name: string;
-  description: string;
-  rawName: string;
-};
-");
+code.AppendLine("import { Ability, AbilityMetaCategory } from './enums';");
+code.AppendLine("import { AbilityInfo } from './types';\n");
 code.AppendLine("export const ABILITIES: AbilityInfo[] = [");
 foreach (var info in ScriptableObjectLoader<AbilityInfo>.AllData) {
   code.AppendLine($"  {{");
@@ -57,17 +50,5 @@ foreach (var info in ScriptableObjectLoader<AbilityInfo>.AllData) {
   code.AppendLine($"    rawName: \"{info.name}\",");
   code.AppendLine($"  }},");
 }
-code.AppendLine("];\n");
-code.AppendLine(@"export function getAbilityInfo(ability: Ability): AbilityInfo {
-  return ABILITIES.find((x) => x.ability == ability) as AbilityInfo;
-}
-
-export function getAbilityByName(name: string): AbilityInfo | undefined {
-  return ABILITIES.find((x) => x.name.toLowerCase() == name.toLowerCase());
-}
-
-export function getAbilityByRawName(name: string): AbilityInfo | undefined {
-  return ABILITIES.find((x) => x.rawName.toLowerCase() == name.toLowerCase());
-}");
-
-File.WriteAllText("index.ts", code.ToString());
+code.AppendLine("];");
+writeAndReset("D:/abilities.ts");
