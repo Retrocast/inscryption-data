@@ -33,7 +33,7 @@ generateEnum(typeof(Tribe));
 writeAndReset("D:/enums.ts");
 
 code.AppendLine("import { Ability, AbilityMetaCategory } from './enums';");
-code.AppendLine("import { AbilityInfo } from './types';\n");
+code.AppendLine("import { type AbilityInfo } from './types';\n");
 code.AppendLine("export const ABILITIES: AbilityInfo[] = [");
 foreach (var info in ScriptableObjectLoader<AbilityInfo>.AllData) {
   code.AppendLine($"  {{");

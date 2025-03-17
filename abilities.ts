@@ -4,7 +4,7 @@
 */
 
 import { Ability, AbilityMetaCategory } from './enums';
-import { AbilityInfo } from './types';
+import { type AbilityInfo } from './types';
 
 export const ABILITIES: AbilityInfo[] = [
   {

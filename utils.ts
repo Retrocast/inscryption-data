@@ -1,6 +1,6 @@
-import { ABILITIES } from "./abilities";
-import { Ability } from "./enums";
-import { AbilityInfo } from "./types";
+import { ABILITIES } from './abilities';
+import { Ability } from './enums';
+import { type AbilityInfo } from './types';
 
 export function getAbilityInfo(ability: Ability): AbilityInfo {
   return ABILITIES.find((x) => x.ability == ability) as AbilityInfo;
