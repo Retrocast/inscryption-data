@@ -56,3 +56,42 @@ foreach (var info in ScriptableObjectLoader<AbilityInfo>.AllData) {
 }
 code.AppendLine("];");
 writeAndReset("D:/abilities.ts");
+
+code.AppendLine("import { Ability, Appearance, CardMetaCategory, CardTemple, GemType, SpecialStatIcon, SpecialTriggeredAbility, Trait, Tribe } from './enums';");
+code.AppendLine("import { type CardInfo } from './types';\n");
+code.AppendLine("export const CARDS: CardInfo[] = [");
+foreach (var info in ScriptableObjectLoader<CardInfo>.AllData) {
+  code.AppendLine($"  {{");
+  code.AppendLine($"    metaCategories: [{string.Join(", ", info.metaCategories.Select(x => EnumEntry(x)))}],");
+  code.AppendLine($"    onePerDeck: {Bool(info.onePerDeck)},");
+  code.AppendLine($"    temple: {EnumEntry(info.temple)},");
+  code.AppendLine($"    name: {String(info.displayedName)},");
+  code.AppendLine($"    description: {String(info.description)},");
+  code.AppendLine($"    hideAttackAndHealth: {Bool(info.hideAttackAndHealth)},");
+  code.AppendLine($"    appearanceBehaviours: [{string.Join(", ", info.appearanceBehaviour.Select(x => EnumEntry(x)))}],");
+  code.AppendLine($"    portrait: {info.portraitTex == null ? "null" : String(info.portraitTex.name)},");
+  code.AppendLine($"    holoPortrait: {info.holoPortraitPrefab == null ? "null" : String(info.holoPortraitPrefab.name)},");
+  code.AppendLine($"    animatedPortrait: {info.animatedPortrait == null ? "null" : String(info.animatedPortrait.name)},");
+  code.AppendLine($"    alternatePortrait: {info.alternatePortrait == null ? "null" : String(info.alternatePortrait.name)},");
+  code.AppendLine($"    pixelPortrait: {info.pixelPortrait == null ? "null" : String(info.pixelPortrait.name)},");
+  code.AppendLine($"    decals: [{string.Join(", ", info.decals.Select(m => String(m.name)))}],");
+  code.AppendLine($"    attack: {info.baseAttack},");
+  code.AppendLine($"    health: {info.baseHealth},");
+  code.AppendLine($"    bloodCost: {info.cost},");
+  code.AppendLine($"    bonesCost: {info.bonesCost},");
+  code.AppendLine($"    energyCost: {info.energyCost},");
+  code.AppendLine($"    gemsCost: [{string.Join(", ", info.gemsCost.Select(x => EnumEntry(x)))}],");
+  code.AppendLine($"    specialStatIcon: {EnumEntry(info.specialStatIcon)},");
+  code.AppendLine($"    tribes: [{string.Join(", ", info.tribes.Select(x => EnumEntry(x)))}],");
+  code.AppendLine($"    traits: [{string.Join(", ", info.traits.Select(x => EnumEntry(x)))}],");
+  code.AppendLine($"    specialAbilities: [{string.Join(", ", info.specialAbilities.Select(x => EnumEntry(x)))}],");
+  code.AppendLine($"    abilities: [{string.Join(", ", info.abilities.Select(x => EnumEntry(x)))}],");
+  code.AppendLine($"    ascensionAbilities: [{string.Join(", ", info.ascensionAbilities.Select(x => EnumEntry(x)))}],");
+  code.AppendLine($"    evolution: {info.evolveParams == null ? "null" : String(info.evolveParams.evolution.name)},");
+  code.AppendLine($"    defaultEvolutionName: {String(info.defaultEvolutionName)},");
+  code.AppendLine($"    tail: {info.tailParams == null ? "null" : String(info.tailParams.tail.name)},");
+  code.AppendLine($"    creatureWithin: {info.iceCubeParams == null ? "null" : String(info.iceCubeParams.creatureWithin.name)},");
+  code.AppendLine($"  }},");
+}
+code.AppendLine("];");
+writeAndReset("D:/cards.ts");
