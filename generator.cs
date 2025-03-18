@@ -2,6 +2,9 @@ using DiskCardGame;
 using System.IO;
 
 var code = new StringBuilder();
+Func<string, string> String = (x) => $"\"{x}\"";
+Func<bool, string> Bool = (x) => x.ToString().ToLower();
+Func<Enum, string> EnumEntry = (x) => $"{x.GetType().Name}.{x}";
 Action<string> writeAndReset = (file) => {
   // Fuck \r's, adding them is a total misplay from windows devs.
   File.WriteAllText(file, $"/**\n * CODE IN THIS FILE IS AUTO-GENERATED!\n * DO NOT MAKE MANUAL CHANGES BECAUSE THEY WILL BE LOST\n*/\n\n{code.ToString()}".Replace("\r", ""));
@@ -38,17 +41,17 @@ code.AppendLine("import { type AbilityInfo } from './types';\n");
 code.AppendLine("export const ABILITIES: AbilityInfo[] = [");
 foreach (var info in ScriptableObjectLoader<AbilityInfo>.AllData) {
   code.AppendLine($"  {{");
-  code.AppendLine($"    ability: Ability.{info.ability.ToString()},");
-  code.AppendLine($"    passive: {info.passive.ToString().ToLower()},");
-  code.AppendLine($"    activated: {info.activated.ToString().ToLower()},");
-  code.AppendLine($"    metaCategories: [{string.Join(", ", info.metaCategories.Select(m => $"AbilityMetaCategory.{m}"))}],");
+  code.AppendLine($"    ability: Ability.{info.ability},");
+  code.AppendLine($"    passive: {Bool(info.passive)},");
+  code.AppendLine($"    activated: {Bool(info.activated)},");
+  code.AppendLine($"    metaCategories: [{string.Join(", ", info.metaCategories.Select(x => EnumEntry(x)))}],");
   code.AppendLine($"    powerLevel: {info.powerLevel},");
-  code.AppendLine($"    opponentUsable: {info.opponentUsable.ToString().ToLower()},");
-  code.AppendLine($"    canStack: {info.canStack.ToString().ToLower()},");
-  code.AppendLine($"    abilityLearnedDialogue: \"{string.Join(", ", info.abilityLearnedDialogue.lines.Select(l => l.text))}\",");
-  code.AppendLine($"    name: \"{info.rulebookName}\",");
-  code.AppendLine($"    description: \"{info.rulebookDescription}\",");
-  code.AppendLine($"    rawName: \"{info.name}\",");
+  code.AppendLine($"    opponentUsable: {Bool(info.opponentUsable)},");
+  code.AppendLine($"    canStack: {Bool(info.canStack)},");
+  code.AppendLine($"    abilityLearnedDialogue: {String(string.Join("\\n", info.abilityLearnedDialogue.lines.Select(l => l.text)))},");
+  code.AppendLine($"    name: {String(info.rulebookName)},");
+  code.AppendLine($"    description: {String(info.rulebookDescription)},");
+  code.AppendLine($"    rawName: {String(info.name)},");
   code.AppendLine($"  }},");
 }
 code.AppendLine("];");
