@@ -3,7 +3,8 @@ using System.IO;
 
 var code = new StringBuilder();
 Action<string> writeAndReset = (file) => {
-  File.WriteAllText(file, $"/**\n * CODE IN THIS FILE IS AUTO-GENERATED!\n * DO NOT MAKE MANUAL CHANGES BECAUSE THEY WILL BE LOST\n*/\n\n{code.ToString()}");
+  // Fuck \r's, adding them is a total misplay from windows devs.
+  File.WriteAllText(file, $"/**\n * CODE IN THIS FILE IS AUTO-GENERATED!\n * DO NOT MAKE MANUAL CHANGES BECAUSE THEY WILL BE LOST\n*/\n\n{code.ToString()}".Replace("\r", ""));
   code = new StringBuilder();
 };
 Action<Type> generateEnum = (type) =>
