@@ -8,8 +8,7 @@
     "sourceMap": true,
     "strict": true,
     "skipLibCheck": true,
-    "noFallthroughCasesInSwitch": true,
-    "removeComments": true
+    "noFallthroughCasesInSwitch": true
   },
   "include": ["index.ts"]
 }
