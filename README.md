@@ -15,6 +15,10 @@ let hoarder = getAbilityInfo(magpie.abilities[1]);
 console.log(`${hoarder.name}: ${hoarder.description}`); // Hoarder: When [creature] is played, you may search your deck for any card and take it into your hand.
 ```
 
+## Docs
+
+All the [types](types.ts) and [utility functions](utils.ts) have full JSDoc comments for everything.
+
 ## Building
 
 While there is no reason to "build" it yourself, you can still do so with [generator.cs](generator.cs).
