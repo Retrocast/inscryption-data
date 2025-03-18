@@ -19,5 +19,7 @@
     "inscryption"
   ],
   "author": "Retrocast",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "Retrocast/inscryption-data",
+  "homepage": "https://github.com/Retrocast/inscryption-data#readme"
 }
