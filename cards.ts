@@ -37,6 +37,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "!GIANTCARD_SHIP",
   },
   {
     metaCategories: [],
@@ -68,6 +69,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "MoleSeaman",
   },
   {
     metaCategories: [],
@@ -99,6 +101,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "SkeletonParrot",
   },
   {
     metaCategories: [],
@@ -130,6 +133,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "SkeletonPirate",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.AscensionUnlock],
@@ -161,6 +165,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Insect",
     creatureWithin: null,
+    rawName: "AntFlying",
   },
   {
     metaCategories: [],
@@ -192,6 +197,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "AquaSquirrel",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.AscensionUnlock],
@@ -223,6 +229,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Bull",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.AscensionUnlock],
@@ -254,6 +261,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Bird",
     creatureWithin: null,
+    rawName: "Cuckoo",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.AscensionUnlock],
@@ -285,6 +293,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "DireWolf",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.AscensionUnlock],
@@ -316,6 +325,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "DireWolfCub",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.AscensionUnlock],
@@ -347,6 +357,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Hodag",
   },
   {
     metaCategories: [CardMetaCategory.Rare],
@@ -378,6 +389,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "SkinkTail",
     creatureWithin: null,
+    rawName: "Hydra",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.AscensionUnlock],
@@ -409,6 +421,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "Extra Curious Egg",
     tail: "SkinkTail",
     creatureWithin: null,
+    rawName: "HydraEgg",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.AscensionUnlock],
@@ -440,6 +453,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Ijiraq",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.AscensionUnlock],
@@ -471,6 +485,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Ijiraq_UnlockScreen",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.AscensionUnlock],
@@ -502,6 +517,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Bird",
     creatureWithin: null,
+    rawName: "Lammergeier",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.AscensionUnlock],
@@ -533,6 +549,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Insect",
     creatureWithin: null,
+    rawName: "Lice",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.AscensionUnlock],
@@ -564,6 +581,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Insect",
     creatureWithin: null,
+    rawName: "MealWorm",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.AscensionUnlock],
@@ -595,6 +613,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "SkinkTail",
     creatureWithin: null,
+    rawName: "MudTurtle",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.AscensionUnlock],
@@ -626,6 +645,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Raccoon",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.AscensionUnlock],
@@ -657,6 +677,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "RedHart",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.AscensionUnlock],
@@ -688,6 +709,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "SkinkTail",
     creatureWithin: null,
+    rawName: "Tadpole",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.AscensionUnlock],
@@ -719,6 +741,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Wolverine",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -750,6 +773,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Adder",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -781,6 +805,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "Omega",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Alpha",
   },
   {
     metaCategories: [CardMetaCategory.Rare],
@@ -812,6 +837,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Amalgam",
   },
   {
     metaCategories: [CardMetaCategory.Rare],
@@ -843,6 +869,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Amoeba",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -874,6 +901,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Insect",
     creatureWithin: null,
+    rawName: "Ant",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -905,6 +933,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Insect",
     creatureWithin: null,
+    rawName: "AntQueen",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -936,6 +965,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Bat",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -967,6 +997,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Beaver",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random],
@@ -998,6 +1029,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Insect",
     creatureWithin: null,
+    rawName: "Bee",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -1029,6 +1061,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Insect",
     creatureWithin: null,
+    rawName: "Beehive",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -1060,6 +1093,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Bloodhound",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -1091,6 +1125,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Bullfrog",
   },
   {
     metaCategories: [],
@@ -1122,6 +1157,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "BurrowingTrap",
   },
   {
     metaCategories: [],
@@ -1153,6 +1189,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "CagedWolf",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -1184,6 +1221,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Cat",
   },
   {
     metaCategories: [],
@@ -1215,6 +1253,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "CatUndead",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -1246,6 +1285,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Insect",
     creatureWithin: null,
+    rawName: "Cockroach",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -1277,6 +1317,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Coyote",
   },
   {
     metaCategories: [CardMetaCategory.Rare],
@@ -1308,6 +1349,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Daus",
   },
   {
     metaCategories: [],
@@ -1339,6 +1381,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "DefaultTail",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -1370,6 +1413,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Elk",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -1401,6 +1445,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "ElkCub",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -1432,6 +1477,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "FieldMouse",
   },
   {
     metaCategories: [CardMetaCategory.GBCPlayable],
@@ -1463,6 +1509,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "FieldMouse_Fused",
   },
   {
     metaCategories: [CardMetaCategory.Rare],
@@ -1494,6 +1541,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Geck",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -1525,6 +1573,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Goat",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -1556,6 +1605,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Grizzly",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -1587,6 +1637,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Hawk",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.GBCPlayable, CardMetaCategory.GBCPack],
@@ -1618,6 +1669,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Hrokkall",
   },
   {
     metaCategories: [CardMetaCategory.Rare],
@@ -1649,6 +1701,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "Child 14",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "JerseyDevil",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -1680,6 +1733,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Bird",
     creatureWithin: null,
+    rawName: "Kingfisher",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.GBCPlayable],
@@ -1711,6 +1765,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Kraken",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -1742,6 +1797,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Insect",
     creatureWithin: null,
+    rawName: "Maggots",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -1773,6 +1829,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Bird",
     creatureWithin: null,
+    rawName: "Magpie",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -1804,6 +1861,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Insect",
     creatureWithin: null,
+    rawName: "Mantis",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -1835,6 +1893,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Insect",
     creatureWithin: null,
+    rawName: "MantisGod",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -1866,6 +1925,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Mole",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -1897,6 +1957,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "MoleMan",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -1928,6 +1989,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Moose",
   },
   {
     metaCategories: [CardMetaCategory.Rare],
@@ -1959,6 +2021,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Mothman_Stage1",
   },
   {
     metaCategories: [],
@@ -1990,6 +2053,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Mothman_Stage2",
   },
   {
     metaCategories: [],
@@ -2021,6 +2085,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "Final Form",
     tail: null,
     creatureWithin: null,
+    rawName: "Mothman_Stage3",
   },
   {
     metaCategories: [],
@@ -2052,6 +2117,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Mule",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -2083,6 +2149,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "Awesome Opossum",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Opossum",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -2114,6 +2181,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Otter",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.GBCPlayable],
@@ -2145,6 +2213,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "SkinkTail",
     creatureWithin: null,
+    rawName: "Ouroboros",
   },
   {
     metaCategories: [CardMetaCategory.Rare],
@@ -2176,6 +2245,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "PackRat",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -2207,6 +2277,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Porcupine",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -2238,6 +2309,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Pronghorn",
   },
   {
     metaCategories: [],
@@ -2269,6 +2341,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Rabbit",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -2300,6 +2373,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "RatKing",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -2331,6 +2405,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Rattler",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -2362,6 +2437,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Bird",
     creatureWithin: null,
+    rawName: "Raven",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -2393,6 +2469,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Bird",
     creatureWithin: null,
+    rawName: "RavenEgg",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -2424,6 +2501,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Salmon",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -2455,6 +2533,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "Greater White",
     tail: null,
     creatureWithin: null,
+    rawName: "Shark",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -2486,6 +2565,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "SkinkTail",
     creatureWithin: null,
+    rawName: "Skink",
   },
   {
     metaCategories: [],
@@ -2517,6 +2597,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "SkinkTail",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -2548,6 +2629,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Skunk",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -2579,6 +2661,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Snapper",
   },
   {
     metaCategories: [CardMetaCategory.Rare],
@@ -2610,6 +2693,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "Longer Elk",
     tail: null,
     creatureWithin: null,
+    rawName: "Snelk",
   },
   {
     metaCategories: [],
@@ -2641,6 +2725,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "Longer Elk",
     tail: null,
     creatureWithin: null,
+    rawName: "Snelk_Neck",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -2672,6 +2757,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Bird",
     creatureWithin: null,
+    rawName: "Sparrow",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -2703,6 +2789,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "SquidBell",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -2734,6 +2821,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "SquidCards",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -2765,6 +2853,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "SquidMirror",
   },
   {
     metaCategories: [CardMetaCategory.GBCPlayable],
@@ -2796,6 +2885,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Squirrel",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -2827,6 +2917,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "SquirrelBall",
   },
   {
     metaCategories: [CardMetaCategory.GBCPlayable],
@@ -2858,6 +2949,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Stoat",
   },
   {
     metaCategories: [],
@@ -2889,6 +2981,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Tail_Bird",
   },
   {
     metaCategories: [],
@@ -2920,6 +3013,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Tail_Furry",
   },
   {
     metaCategories: [],
@@ -2951,6 +3045,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Tail_Insect",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -2982,6 +3077,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Urayuli",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -3013,6 +3109,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Bird",
     creatureWithin: null,
+    rawName: "Vulture",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -3044,6 +3141,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Warren",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -3075,6 +3173,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "Wolf",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -3106,6 +3205,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "Tail_Furry",
     creatureWithin: null,
+    rawName: "WolfCub",
   },
   {
     metaCategories: [],
@@ -3137,6 +3237,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "Greater Shade",
     tail: null,
     creatureWithin: null,
+    rawName: "!DEATHCARD_BASE",
   },
   {
     metaCategories: [],
@@ -3168,6 +3269,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "!DEATHCARD_LESHY",
   },
   {
     metaCategories: [],
@@ -3199,6 +3301,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "!DEATHCARD_VICTORY",
   },
   {
     metaCategories: [],
@@ -3230,6 +3333,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "!GIANTCARD_MOON",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode],
@@ -3261,6 +3365,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "!STATIC!GLITCH",
   },
   {
     metaCategories: [],
@@ -3292,6 +3397,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "BaitBucket",
   },
   {
     metaCategories: [],
@@ -3323,6 +3429,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "CardMergeStones",
   },
   {
     metaCategories: [],
@@ -3354,6 +3461,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "God Dam",
     tail: null,
     creatureWithin: null,
+    rawName: "Dam",
   },
   {
     metaCategories: [],
@@ -3385,6 +3493,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "DausBell",
   },
   {
     metaCategories: [],
@@ -3416,6 +3525,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "GoldNugget",
   },
   {
     metaCategories: [],
@@ -3447,6 +3557,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "PeltGolden",
   },
   {
     metaCategories: [],
@@ -3478,6 +3589,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "PeltHare",
   },
   {
     metaCategories: [],
@@ -3509,6 +3621,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "PeltWolf",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer],
@@ -3540,6 +3653,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "RingWorm",
   },
   {
     metaCategories: [],
@@ -3571,6 +3685,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Smoke",
   },
   {
     metaCategories: [],
@@ -3602,6 +3717,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Smoke_Improved",
   },
   {
     metaCategories: [],
@@ -3633,6 +3749,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Smoke_NoBones",
   },
   {
     metaCategories: [],
@@ -3664,6 +3781,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Starvation",
   },
   {
     metaCategories: [],
@@ -3695,6 +3813,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Stinkbug_Talking",
   },
   {
     metaCategories: [],
@@ -3726,6 +3845,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Stoat_Talking",
   },
   {
     metaCategories: [],
@@ -3757,6 +3877,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Trap",
   },
   {
     metaCategories: [],
@@ -3788,6 +3909,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "TrapFrog",
   },
   {
     metaCategories: [],
@@ -3819,6 +3941,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Wolf_Talking",
   },
   {
     metaCategories: [],
@@ -3850,6 +3973,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "!CORRUPTED",
   },
   {
     metaCategories: [],
@@ -3881,6 +4005,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "!DEATHCARD_PIXEL_BASE",
   },
   {
     metaCategories: [],
@@ -3912,6 +4037,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: "MeatBot",
+    rawName: "!INSPECTOR",
   },
   {
     metaCategories: [],
@@ -3943,6 +4069,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: "MeatBot",
+    rawName: "!MELTER",
   },
   {
     metaCategories: [],
@@ -3974,6 +4101,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "Big Hunter",
     tail: null,
     creatureWithin: null,
+    rawName: "!BOUNTYHUNTER_BASE",
   },
   {
     metaCategories: [],
@@ -4005,6 +4133,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "!BUILDACARD_BASE",
   },
   {
     metaCategories: [],
@@ -4036,6 +4165,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "!FRIENDCARD_BASE",
   },
   {
     metaCategories: [],
@@ -4067,6 +4197,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "!MYCO_OLD_DATA",
   },
   {
     metaCategories: [],
@@ -4098,6 +4229,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "!MYCOCARD_BASE",
   },
   {
     metaCategories: [],
@@ -4129,6 +4261,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Angler_Fish_Bad",
   },
   {
     metaCategories: [],
@@ -4160,6 +4293,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Angler_Fish_Good",
   },
   {
     metaCategories: [],
@@ -4191,6 +4325,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Angler_Fish_More",
   },
   {
     metaCategories: [],
@@ -4222,6 +4357,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Angler_Talking",
   },
   {
     metaCategories: [],
@@ -4253,6 +4389,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "BlueMage_Talking",
   },
   {
     metaCategories: [],
@@ -4284,6 +4421,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "DUMMY_5-5",
   },
   {
     metaCategories: [],
@@ -4315,6 +4453,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Mole_Telegrapher",
   },
   {
     metaCategories: [],
@@ -4346,6 +4485,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Mummy_Telegrapher",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.GBCPlayable],
@@ -4377,6 +4517,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: "SkinkTail",
     creatureWithin: null,
+    rawName: "Ouroboros_Part3",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.Rare, CardMetaCategory.GBCPlayable],
@@ -4408,6 +4549,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "AboveCurve",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random, CardMetaCategory.ChoiceNode],
@@ -4439,6 +4581,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "AlarmBot",
   },
   {
     metaCategories: [CardMetaCategory.ChoiceNode],
@@ -4470,6 +4613,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Amoebot",
   },
   {
     metaCategories: [CardMetaCategory.GBCPlayable, CardMetaCategory.GBCPack],
@@ -4501,6 +4645,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "AttackConduit",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -4532,6 +4677,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Automaton",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random, CardMetaCategory.ChoiceNode, CardMetaCategory.GBCPlayable, CardMetaCategory.GBCPack, CardMetaCategory.ChoiceNode],
@@ -4563,6 +4709,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "BatteryBot",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random, CardMetaCategory.GBCPlayable, CardMetaCategory.GBCPack, CardMetaCategory.ChoiceNode],
@@ -4594,6 +4741,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "BoltHound",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.ChoiceNode, CardMetaCategory.GBCPlayable],
@@ -4625,6 +4773,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Bombbot",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.Rare, CardMetaCategory.GBCPlayable],
@@ -4656,6 +4805,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "BombMaiden",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random, CardMetaCategory.ChoiceNode],
@@ -4687,6 +4837,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "BustedPrinter",
   },
   {
     metaCategories: [],
@@ -4718,6 +4869,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "CaptiveFile",
   },
   {
     metaCategories: [],
@@ -4749,6 +4901,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "CellBuff",
   },
   {
     metaCategories: [],
@@ -4780,6 +4933,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "CellGift",
   },
   {
     metaCategories: [],
@@ -4811,6 +4965,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "CellTri",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable, CardMetaCategory.ChoiceNode],
@@ -4842,6 +4997,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "CloserBot",
   },
   {
     metaCategories: [],
@@ -4873,6 +5029,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "CXformerAdder",
   },
   {
     metaCategories: [],
@@ -4904,6 +5061,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "CXformerElk",
   },
   {
     metaCategories: [],
@@ -4935,6 +5093,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "CXformerRaven",
   },
   {
     metaCategories: [],
@@ -4966,6 +5125,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "CXformerWolf",
   },
   {
     metaCategories: [],
@@ -4997,6 +5157,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "EmptyVessel",
   },
   {
     metaCategories: [],
@@ -5028,6 +5189,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "EmptyVessel_BlueGem",
   },
   {
     metaCategories: [],
@@ -5059,6 +5221,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "EmptyVessel_GreenGem",
   },
   {
     metaCategories: [],
@@ -5090,6 +5253,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "EmptyVessel_OrangeGem",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.Rare, CardMetaCategory.GBCPlayable],
@@ -5121,6 +5285,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "EnergyConduit",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -5152,6 +5317,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "EnergyRoller",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -5183,6 +5349,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "FactoryConduit",
   },
   {
     metaCategories: [],
@@ -5214,6 +5381,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "GemExploder",
   },
   {
     metaCategories: [],
@@ -5245,6 +5413,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "GemRipper",
   },
   {
     metaCategories: [],
@@ -5276,6 +5445,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "GemsConduit",
   },
   {
     metaCategories: [],
@@ -5307,6 +5477,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "GemShielder",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random, CardMetaCategory.ChoiceNode],
@@ -5338,6 +5509,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "GiftBot",
   },
   {
     metaCategories: [],
@@ -5369,6 +5541,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "HealerConduit",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable, CardMetaCategory.ChoiceNode],
@@ -5400,6 +5573,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Insectodrone",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random],
@@ -5431,6 +5605,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "LatcherBomb",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random],
@@ -5462,6 +5637,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "LatcherBrittle",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random],
@@ -5493,6 +5669,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "LatcherShield",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.ChoiceNode, CardMetaCategory.GBCPlayable],
@@ -5524,6 +5701,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "LeapBot",
   },
   {
     metaCategories: [],
@@ -5555,6 +5733,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Librarian",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -5586,6 +5765,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "MeatBot",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random, CardMetaCategory.GBCPlayable, CardMetaCategory.ChoiceNode, CardMetaCategory.ChoiceNode, CardMetaCategory.GBCPack],
@@ -5617,6 +5797,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "MineCart",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -5648,6 +5829,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "NullConduit",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.Rare, CardMetaCategory.GBCPlayable],
@@ -5679,6 +5861,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "PlasmaGunner",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -5710,6 +5893,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "RoboMice",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random],
@@ -5741,6 +5925,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "RoboSkeleton",
   },
   {
     metaCategories: [],
@@ -5772,6 +5957,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "SentinelBlue",
   },
   {
     metaCategories: [],
@@ -5803,6 +5989,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "SentinelGreen",
   },
   {
     metaCategories: [],
@@ -5834,6 +6021,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "SentinelOrange",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable, CardMetaCategory.ChoiceNode],
@@ -5865,6 +6053,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "SentryBot",
   },
   {
     metaCategories: [CardMetaCategory.GBCPlayable],
@@ -5896,6 +6085,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "SentryBot_Fused",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random, CardMetaCategory.ChoiceNode],
@@ -5927,6 +6117,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Shieldbot",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.Rare, CardMetaCategory.GBCPlayable],
@@ -5958,6 +6149,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Shutterbug",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random, CardMetaCategory.ChoiceNode],
@@ -5989,6 +6181,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Sniper",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -6020,6 +6213,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Steambot",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random, CardMetaCategory.ChoiceNode],
@@ -6051,6 +6245,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "SwapBot",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -6082,6 +6277,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "TechMoxTriple",
   },
   {
     metaCategories: [CardMetaCategory.GBCPlayable, CardMetaCategory.GBCPack],
@@ -6113,6 +6309,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Thickbot",
   },
   {
     metaCategories: [],
@@ -6144,6 +6341,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "XformerBatBeast",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random],
@@ -6175,6 +6373,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "XformerBatBot",
   },
   {
     metaCategories: [],
@@ -6206,6 +6405,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "XformerGrizzlyBeast",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random],
@@ -6237,6 +6437,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "XformerGrizzlyBot",
   },
   {
     metaCategories: [],
@@ -6268,6 +6469,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "XformerPorcupineBeast",
   },
   {
     metaCategories: [CardMetaCategory.Part3Random],
@@ -6299,6 +6501,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "XformerPorcupineBot",
   },
   {
     metaCategories: [],
@@ -6330,6 +6533,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "AnnoyTower",
   },
   {
     metaCategories: [],
@@ -6361,6 +6565,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Boulder",
   },
   {
     metaCategories: [],
@@ -6392,6 +6597,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "BridgeRailing",
   },
   {
     metaCategories: [],
@@ -6423,6 +6629,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "BrokenBot",
   },
   {
     metaCategories: [],
@@ -6454,6 +6661,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "BrokenEgg",
   },
   {
     metaCategories: [],
@@ -6485,6 +6693,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "ConduitTower",
   },
   {
     metaCategories: [],
@@ -6516,6 +6725,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "DeadTree",
   },
   {
     metaCategories: [],
@@ -6547,6 +6757,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "FrozenOpossum",
   },
   {
     metaCategories: [],
@@ -6578,6 +6789,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Stump",
   },
   {
     metaCategories: [],
@@ -6609,6 +6821,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "TombStone",
   },
   {
     metaCategories: [],
@@ -6640,6 +6853,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Tree",
   },
   {
     metaCategories: [],
@@ -6671,6 +6885,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Tree_Hologram",
   },
   {
     metaCategories: [],
@@ -6702,6 +6917,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Tree_Hologram_SnowCovered",
   },
   {
     metaCategories: [],
@@ -6733,6 +6949,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Tree_SnowCovered",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -6764,6 +6981,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Banshee",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -6795,6 +7013,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Bonehound",
   },
   {
     metaCategories: [CardMetaCategory.GBCPlayable],
@@ -6826,6 +7045,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "BonelordHorn",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -6857,6 +7077,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Bonepile",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -6888,6 +7109,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "CoinLeft",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -6919,6 +7141,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "CoinRight",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -6950,6 +7173,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "DeadHand",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -6981,6 +7205,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: "Skeleton",
+    rawName: "DeadPets",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7012,6 +7237,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: "Skeleton",
+    rawName: "Draugr",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.GBCPlayable],
@@ -7043,6 +7269,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "DrownedSoul",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7074,6 +7301,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Family",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7105,6 +7333,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: "Skeleton",
+    rawName: "FrankNStein",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7136,6 +7365,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "GhostShip",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7167,6 +7397,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Gravedigger",
   },
   {
     metaCategories: [CardMetaCategory.GBCPlayable],
@@ -7198,6 +7429,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Gravedigger_Fused",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7229,6 +7461,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "HeadlessHorseman",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7260,6 +7493,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Mummy",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7291,6 +7525,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Necromancer",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7322,6 +7557,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Revenant",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7353,6 +7589,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Sarcophagus",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7384,6 +7621,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Skeleton",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7415,6 +7653,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "SkeletonMage",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7446,6 +7685,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "TombRobber",
   },
   {
     metaCategories: [CardMetaCategory.GBCPlayable],
@@ -7477,6 +7717,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: "Skeleton",
+    rawName: "Zombie",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7508,6 +7749,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "BlueMage",
   },
   {
     metaCategories: [CardMetaCategory.GBCPlayable],
@@ -7539,6 +7781,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "BlueMage_Fused",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7570,6 +7813,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "FlyingMage",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7601,6 +7845,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "ForceMage",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7632,6 +7877,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "GemFiend",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7663,6 +7909,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "GreenMage",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7694,6 +7941,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "JuniorSage",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7725,6 +7973,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "MageKnight",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7756,6 +8005,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "MarrowMage",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.GBCPlayable, CardMetaCategory.GBCPack],
@@ -7787,6 +8037,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "MasterBleene",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.GBCPlayable, CardMetaCategory.GBCPack],
@@ -7818,6 +8069,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "MasterGoranj",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.GBCPlayable, CardMetaCategory.GBCPack],
@@ -7849,6 +8101,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "MasterOrlu",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7880,6 +8133,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "MoxDualBG",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7911,6 +8165,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "MoxDualGO",
   },
   {
     metaCategories: [CardMetaCategory.Rare, CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7942,6 +8197,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "MoxDualOB",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -7973,6 +8229,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "MoxEmerald",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -8004,6 +8261,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "MoxRuby",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -8035,6 +8293,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "MoxSapphire",
   },
   {
     metaCategories: [CardMetaCategory.Rare],
@@ -8066,6 +8325,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "MoxTriple",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -8097,6 +8357,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "MuscleMage",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -8128,6 +8389,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "OrangeMage",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -8159,6 +8421,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "PracticeMage",
   },
   {
     metaCategories: [],
@@ -8190,6 +8453,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "PracticeMageSmall",
   },
   {
     metaCategories: [CardMetaCategory.GBCPlayable, CardMetaCategory.GBCPack],
@@ -8221,6 +8485,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "Pupil",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -8252,6 +8517,7 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "RubyGolem",
   },
   {
     metaCategories: [CardMetaCategory.GBCPack, CardMetaCategory.GBCPlayable],
@@ -8283,5 +8549,6 @@ export const CARDS: CardInfo[] = [
     defaultEvolutionName: "",
     tail: null,
     creatureWithin: null,
+    rawName: "StimMage",
   },
 ];

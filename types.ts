@@ -55,4 +55,5 @@ export type CardInfo = {
   defaultEvolutionName: string;
   tail: string | null;
   creatureWithin: string | null;
+  rawName: string;
 };

@@ -91,6 +91,7 @@ foreach (var info in ScriptableObjectLoader<CardInfo>.AllData) {
   code.AppendLine($"    defaultEvolutionName: {String(info.defaultEvolutionName)},");
   code.AppendLine($"    tail: {info.tailParams == null ? "null" : String(info.tailParams.tail.name)},");
   code.AppendLine($"    creatureWithin: {info.iceCubeParams == null ? "null" : String(info.iceCubeParams.creatureWithin.name)},");
+  code.AppendLine($"    rawName: {String(info.name)},");
   code.AppendLine($"  }},");
 }
 code.AppendLine("];");
